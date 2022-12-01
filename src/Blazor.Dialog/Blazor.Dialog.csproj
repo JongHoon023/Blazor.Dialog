@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.JSInterop" Version="7.0.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <Company>JongHoon</Company>
+    <Copyright>Copyright(c) 2022 $(Company) All rights reserved.</Copyright>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Authors>JongHoon</Authors>
+    <PackageTags>$(Company)</PackageTags>
+    <PackageLicenseUrl>https://github.com/JongHoon023/Blazor.Dialog/blob/main/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/JongHoon023/Blazor.Dialog.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/JongHoon023/Blazor.Dialog</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryBranch>main</RepositoryBranch>
+    <Deterministic>true</Deterministic>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Description>
+      Alert, Confirm, Prompt 창을 편하게 사용할 수 있게 돕는 Service 입니다.
+    </Description>
+  </PropertyGroup>
+
+</Project>
